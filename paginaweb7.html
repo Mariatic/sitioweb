@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>cuestionario</title>
+</head>
+<body bgcolor="9E0800">
+  <a href="paginaweb2.html"></a>
+  <table border="2">
+    <form>
+ <h1>FORMULARIO DE OPINION</h1>
+   <td><label for="name">Sexo</label><br>
+  <td><input type="radio" name="sexo" value="masculino">Masculino</td><br>
+  <td><input type="radio" name="sexo" value="femenino">Femenino</td><br>
+    <tr>
+      <td>Fecha de nacimiento</td>
+      <td colspan="2"><label for="start"></label>
+      <input type="date" id="start" name="trip-start" value="00-01-01" min="00-01-01" max="2024-12-31" /></td>
+    </tr>
+  <tr>
+    <td>¿La pagina web carga rapidamente?</td>
+    <td><input type="radio" name="respuesta" value="si">Si</td>
+    <td><input type="radio" name="respuesta" value="no">No</td>
+  </tr>
+    <tr>
+    <td>¿Cuenta con un contenido coherente?</td>
+    <td><input type="radio" name="respuesta2" value="si">Si</td>
+    <td><input type="radio" name="respuesta2" value="no">No</td>
+    </tr>
+  <tr>
+    <td>¿Cuenta con elementos multimedia(audio, videos, imagenes...)?</td>
+    <td><input type="radio" name="respuesta3" value="si">Si</td>
+    <td><input type="radio" name="respuesta3" value="no">No</td>
+  </tr>
+ <tr>
+   <td>¿Contiene enlaces o vinculos de informacion?</td>
+   <td><input type="radio" name="respuesta4" value="si">Si</td>
+   <td><input type="radio" name="respuesta4" value="no">No</td>
+ </tr>
+    <tr>
+      <td>La informacion ¿esta libre de errores gramaticales y ortograficos?</td>
+      <td><input type="radio" name="respuesta5" value="si">Si</td>
+      <td><input type="radio" name="respuesta5" value="no">No</td>
+    </tr>
+  <tr>
+    <td>¿La navegacion es sencilla?</td>
+    <td><input type="radio" name="respuesta6" value="si">Si</td>
+    <td><input type="radio" name="respuesta6" value="no">No</td>
+  </tr>
+    <tr>
+      <td>¿Aparece el nombre del autor?</td>
+      <td><input type="radio" name="respuesta7" value="si">Si</td>
+      <td><input type="radio" name="respuesta7" value="no">No</td>
+    </tr>
+    <tr>
+      <td>Deja tu opinion:</td>
+      <td colspan="2"><textarea id="reseña" name="reseña" rows="5" cols="33"></textarea></td>
+    </tr>
+    <tr>
+      Califica nuestra página web (De 1 a 5 estrellas)
+      <form>
+        <p class="clasificacion">
+          <input id="radio1" type="radio" name="estrellas" value="5"><!--
+         --> <label for="radio1">★</label><!--
+          --><input id="radio2" type="radio" name="estrellas" value="4"><!--
+          --><label for="radio2">★</label><!--
+          --><input id="radio3" type="radio" name="estrellas" value="3"><!--
+          --><label for="radio3">★</label><!--
+          --><input id="radio4" type="radio" name="estrellas" value="2"><!--
+          --><label for="radio4">★</label><!--
+          --><input id="radio5" type="radio" name="estrellas" value="1"><!--
+          --><label for="radio5">★</label>
+        </p>
+      </form> 
+    </tr>
+    </table>
+  <form>
+    <div class="controls">
+      <center>
+     <input type="reset" value="Borrar">
+  <input type="submit" value="Enviar">
+        </center>
+      </div>
+    </form>
+</body>
+</html>
